@@ -1,4 +1,4 @@
-def call(String workspace, string resultsDir){
+def call(String workspace, String resultsDir){
 	node{
 	    dotnetTest project: workspace, 
 	        resultsDirectory: resultsDir, 
