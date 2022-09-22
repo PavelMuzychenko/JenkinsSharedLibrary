@@ -1,4 +1,4 @@
-def call(String workspace, string publishDir){
+def call(String workspace, String publishDir){
 	node{
 	    dotnetPublish project: workspace, 
             	outputDirectory: publishDir, 
